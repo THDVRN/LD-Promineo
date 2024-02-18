@@ -1,0 +1,57 @@
+
+.home {
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+    color: aquamarine;
+}
+
+.godzilla {
+    background-color: rgb(3,30,41);
+    color: rgb(0,241,243);
+    max-width: fit-content;
+    text-align: center;
+}
+
+body {
+    max-width: 1080px;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    list-style: inside;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border-radius: 10px;
+    filter: drop-shadow(5px 5px)
+}
+
+h1, h2, h3, h4, h5, h5, p {
+    font: ;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(fonts/PressStart2P-Regular.woff2) format('woff2'),
+        url(fonts/PressStart2P-Regular.woff) format('woff'),
+        url(/fonts/PressStart2P-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+th,td {
+    padding: 5px;
+}
+
+#shoes {
+    border-style: groove;
+}
