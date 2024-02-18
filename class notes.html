@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Notes</title>
+</head>
+<body>
+<h1>Class Notes:</h1>
+
+<h2><a name="Week 1">Week 1:</a></h2>
+<h3><a name="HTML Videos">HTML Videos</a></h3>
+<h4><a name="HTML CSS and JavaScript">HTML CSS and JavaScript</a></h4>
+<ul>
+    <li>Main programming languages are HTML, CSS, JavaScript</li>
+    <li>HTML (Hyper Text Markup Langauge): Skeleton - Provides structure for page</li>
+    <li>CSS (Cascading Style Sheets): Skin & Clothing - Adds style</li>
+    <li>JavaScript: Muscle - Language that allows functionality and performs calculations</li>
+</ul>
+<h4><a name="Intro to HTML">Intro to HTML</a></h4>
+<ul>
+    <li>HTML is built with elements</li>
+    <li>Attributes can be added to elements</li>
+</ul>
+<h4><a name="Text Elements">Text Elements:</a></h4>
+- Paragraphs <p></p>
+- Headings <h1-6></h1-6>
+- Bold &lt;b&gt;&lt;/b&gt;
+- Italicized <i></i>
+- Superscript <sup></sup>
+- Can use comments to provide context for code. <!--"insert comment here"-->
+
+Anchors (Links) and Images
+- Link Absolute path: direct URL <a href="URL">text for link</a>
+- Link Relative path: link to resource on site <a href="site page">text for link</a>
+  - if located in another folder, should be folder/resource
+- Line breaks <b>
+- Image absolute path <img src="URL"/>
+- Image relative path <img src="path"/>
+
+Lists and Tables
+- Ordered List <ol> to create list
+  - <li>list items</li>
+  - </ol> close list
+- Unordered list <ul></ul> same format
+- Tables <table> to create table
+  - to create table rows <tr>
+  - Table headers <th>header</th>
+  - </tr> close row
+  - table data <td></td>
+  - </table> to close
+
+Inline vs. Block
+- Inline and Block helps structure HTML elements
+  - Block elements take up the entire width of the parent
+  - Multiple inline elements can fit on one line
+- Div and span are tools to structure the pages and group them
+  - Div is a block element and takes up the entire width
+  - Span is an inline element
+- Div is a grouping within a block <div></div>
+- Span <span></span>
+
+Forms
+- Form element <form></form>
+- to create an Input <input
+  - select what type of input it will be <input type="text" (creates text box)
+    - type="radio" (creates a radio selection)
+      - you have to add a category for the selections via name <input type="radio" name="ice-cream"
+      - you have to add a line for each selection <input type="radio" name="ice-cream" value="Chocolate"> Chocolate (text at the end is 	what shows up)
+  - name the input <input type="text" name="firstName"
+  - can add placeholder text for default <input type="text" name="firstName" placeholder="First Name">
+- Submission button <input type="submit" value="Submit">
+- Can create buttons with the button element <button>Text</button>
+
+Creating a Basic Website
+- Can add attributes to adjust picture size
+  - height [ <img height="150px" src="URL">
+
+Lab 1
+ - Thematic Break (Horizontal Rule) - <hr />
+
+Class 2/7/24
+Head section will link to CSS or Javascript files
+Everything you see will be in the body tag
+Text Elements - 
+<strong></strong> important text, bold
+<em></em>emphasize, italics
+<sub></sub> subscript
+Anchor/Links - 
+<a href="#contacts">Jump to Contacts</a>
+<a name="contacts" />
+<script></script> tag used in the head to link to external javascript files
+  - can do it inline but not really done
+  - <script>
+      console.log('javascript here');
+    </script>
+Other form input types
+  - checkbox
+  - password
+<select></select> - dropdown list
+  <option></option> items for drop downs
+<article></article>
+Section vs Article - if a lot of repeating content use article
+HTML Entities
+ - < is &lt;
+ - > is &gt;
+ - " is &quot;
+ - & is &amp;
+
+ <nav>
+  <a href="index.html">Home</a> |
+  <a href="Godzilla.html">Godzilla</a> |
+  <a href="Sneakers.html">Sneakers</a> |
+  <a href="CourseOutline.html">Front End Notes</a>
+</nav>
